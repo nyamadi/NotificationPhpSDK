@@ -1,8 +1,6 @@
 <?php 
 require "../vendor/autoload.php";
-use  Hubtel\Notification\JobsApi;
-
-
+use  HubtelSdk\Notification\JobsApi;
 
 $jobcode="w3324";
 

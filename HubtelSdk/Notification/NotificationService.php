@@ -1,4 +1,4 @@
-<?php namespace Hubtel\Notification;
+<?php namespace HubtelSdk\Notification;
 
 class NotificationService{
   private static $BASE_URL = "http://localhost:7755/jobs";

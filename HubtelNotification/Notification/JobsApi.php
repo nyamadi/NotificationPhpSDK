@@ -1,5 +1,5 @@
-<?php namespace HubtelNotification;
-use  Hubtel\Notification\NotificationService;
+<?php namespace Hubtel\Notification;
+
 
 class JobsApi{
 
