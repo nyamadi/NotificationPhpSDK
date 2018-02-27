@@ -1,25 +1,5 @@
-<?php namespace Hubtel\Notification;
-use NotificationService;
-$payload=
-'{
-    "audience":{
-            "email":[
-            {
-                "name":"Augustine",
-                "email":"augustine@hubtel.com"
-            }],
-            "sms":[
-                "2334353443",
-                "2334543353"
-                ]
-    },
-	"values":{}
-        
-}';
-
- $res=JobsApi::executeJob("w3324",json_decode($payload),"45456");
-
-
+<?php namespace HubtelNotification;
+use  Hubtel\Notification\NotificationService;
 
 class JobsApi{
 
