@@ -2,7 +2,7 @@
     "name": "hubtelnotification/sdk",
     "description": "PHP SDK for  Hubtel notification ",
     "keywords": ["template", "composer", "package"],
-    "license": "Hubtel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Hubtel",
